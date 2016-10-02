@@ -4,6 +4,7 @@
 *.so
 
 server
+geolite/GeoLite2-City.mmdb
 # Folders
 _obj
 _test
