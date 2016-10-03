@@ -32,6 +32,11 @@ Site created by Angular 2 framework:
 
     code splited and organized by Webpack
 
+Probably mostly intresting part:
+
+    all web static web file incorporate is single file ./server
+    how it possible --> https://github.com/rakyll/statik/
+
 Size:
 
     Doker image after deployment on Google Container Registry:
