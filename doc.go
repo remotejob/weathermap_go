@@ -25,6 +25,7 @@
 	Geo Location:
 		get coordinate by
 		free GeoLite2-City DB
+		https://dev.maxmind.com/geoip/geoip2/geolite2/
 
 	Weather data:
 		by simple https://openweathermap.org/  API service
