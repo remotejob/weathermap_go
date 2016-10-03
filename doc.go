@@ -311,5 +311,4 @@
 	methods to a reader without that capability, use
 	bufio.NewReader.
 */
-package weathermap_go
-
+package main
