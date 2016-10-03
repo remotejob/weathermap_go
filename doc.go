@@ -15,6 +15,7 @@
 	The points:
 
 	General:
+
 	small Docker container image
 	can be demployed on
 		Amazon EC2 Container Service	

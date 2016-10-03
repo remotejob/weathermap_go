@@ -11,7 +11,9 @@ Angular2 code https://github.com/remotejob/weathermap_ang2_webpack.
 
 The points:
 
-General: small Docker container image can be demployed on
+General:
+
+small Docker container image can be demployed on
 
     Amazon EC2 Container Service
     Google Container Engine
