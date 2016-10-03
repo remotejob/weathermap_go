@@ -12,7 +12,7 @@
 
 	Use	
 
-	The points:
+	The points --> smallest Docker image, test web performatce (Angular 2):
 
 	General:
 
@@ -39,5 +39,10 @@
 
 	Docker and Golang:
 		Golang: definitely winning in relation to Docker compare with others languages
+
+	Files:
+		Makefile - compile and deploy Docker image
+		Dockerfile - it's Dockerfile for Docker image creation
+		deployment.yaml - kubernetes deployment on Google Container Engine
 */
 package main
