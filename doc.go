@@ -3,9 +3,9 @@
 // license that can be found in the LICENSE file.
 
 /*
-	Package fmt implements formatted I/O with functions analogous
-	to C's printf and scanf.  The format 'verbs' are derived from C's but
-	are simpler.
+	Package weathermap_go simple web site
+	Live DEMO http://104.155.23.78:8080
+	Angular2 code https://github.com/remotejob/weathermap_ang2_webpack
 
 
 	Printing
