@@ -15,7 +15,7 @@
 	The points:
 
 	General:
-        small Docker container image
-        can be demployed on:
+        *small Docker container image
+        *can be demployed on:
 */
 package main
