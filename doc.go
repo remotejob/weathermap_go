@@ -10,7 +10,7 @@
 	Angular2 code https://github.com/remotejob/weathermap_ang2_webpack.
 
 
-	Printing
+	Use	
 
 	The points:
 
@@ -21,5 +21,10 @@
 		Amazon EC2 Container Service	
 		Google Container Engine
 		Azure Container Service etc..
+
+	Geo Location:
+
+	coordinate by
+		free GeoLite2-City DB
 */
 package main

@@ -7,7 +7,7 @@ Live DEMO http://104.155.23.78:8080
 Angular2 code https://github.com/remotejob/weathermap_ang2_webpack.
 
 
-### Printing
+### Use
 
 The points:
 
@@ -18,3 +18,9 @@ small Docker container image can be demployed on
     Amazon EC2 Container Service
     Google Container Engine
     Azure Container Service etc..
+
+Geo Location:
+
+coordinate by
+
+    free GeoLite2-City DB
