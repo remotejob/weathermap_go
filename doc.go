@@ -15,10 +15,10 @@
 	The points:
 
 	General:
-		%vthe value in a default format
-		    when printing structs, the plus flag (%+v) adds field names
-		%#v a Go-syntax representation of the value
-		%T	a Go-syntax representation of the type of the value
-		%%	a literal percent sign; consumes no value
+	small Docker container image
+	can be demployed on
+		Amazon EC2 Container Service	
+		Google Container Engine
+		Azure Container Service etc..
 */
 package main
