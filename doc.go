@@ -10,12 +10,13 @@
 	Angular2 code https://github.com/remotejob/weathermap_ang2_webpack.
 
 
-	Usage
+	Printing
 
 	The points:
 
 	General:
-        small Docker container image
+		%vthe value in a default format
+		    when printing structs, the plus flag (%+v) adds field names
 		%#v a Go-syntax representation of the value
 		%T	a Go-syntax representation of the type of the value
 		%%	a literal percent sign; consumes no value
