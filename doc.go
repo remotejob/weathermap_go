@@ -18,9 +18,9 @@
 
 	* small Docker container image
 	can be demployed on
-		Amazon EC2 Container Service	
-		Google Container Engine
-		Azure Container Service etc..
+		Amazon EC2 Container Service  	
+		Google Container Engine 
+		Azure Container Service etc..  
 
 	Geo Location:
 
