@@ -1,9 +1,10 @@
 # weathermap_go
 --
+[demo](http://104.155.23.78:8080)
 
     	Package weathermap_go simple web site
 
-        [demo](http://104.155.23.78:8080/)
+        [demo](http://104.155.23.78:8080)
 
     	Printing
 

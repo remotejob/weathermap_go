@@ -5,7 +5,7 @@
 /*
 	Package weathermap_go simple web site
 
-    [demo](http://104.155.23.78:8080/)
+    http://104.155.23.78:8080  Live DEMO
 
 
 	Printing
