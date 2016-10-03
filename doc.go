@@ -4,7 +4,7 @@
 
 /*
 	Package fmt implements formatted I/O with functions analogous
-	to C's printf and scanf.  The format 'verbs' are derived from C's but
+	Live DEMO http://104.155.23.78:8080
 	are simpler.
 
 
