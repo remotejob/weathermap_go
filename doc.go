@@ -10,7 +10,7 @@
 
 	Printing
 
-	The verbs:
+	The points:
 
 	General:
 		%vthe value in a default format

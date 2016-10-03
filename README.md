@@ -6,7 +6,7 @@ scanf. The format 'verbs' are derived from C's but are simpler.
 
 ### Printing
 
-The verbs:
+The points:
 
 General:
 
