@@ -8,17 +8,13 @@
 	Angular2 code https://github.com/remotejob/weathermap_ang2_webpack
 
 
-	Printing
+	Use
 
-	The verbs:
+	The points:
 
 	General:
-		%v	the value in a default format
-			when printing structs, the plus flag (%+v) adds field names
-		%#v	a Go-syntax representation of the value
-		%T	a Go-syntax representation of the type of the value
-		%%	a literal percent sign; consumes no value
-
+        small Docker container image
+        can be demployed on
 	Boolean:
 		%t	the word true or false
 	Integer:
