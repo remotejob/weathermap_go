@@ -33,9 +33,9 @@
 		code splited and organized by Webpack
 
 	Size:
-		Doker image after deployment on Google Container Registry
-		size without GeoLite2-City.mmdn 3 MB!!
-		total size 35 MB included GeoLite2-City.mmdn.
+		Doker image after deployment on Google Container Registry:
+			size without GeoLite2-City.mmdn 3 MB!!
+			total size 35 MB included GeoLite2-City.mmdn.
 
 	Docker and Golang:
 		Golang: definitely winning in relation to Docker compare with others languages

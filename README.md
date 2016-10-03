@@ -34,9 +34,9 @@ Site created by Angular 2 framework:
 
 Size:
 
-    Doker image after deployment on Google Container Registry
-    size without GeoLite2-City.mmdn 3 MB!!
-    total size 35 MB included GeoLite2-City.mmdn.
+    Doker image after deployment on Google Container Registry:
+    	size without GeoLite2-City.mmdn 3 MB!!
+    	total size 35 MB included GeoLite2-City.mmdn.
 
 Docker and Golang:
 
