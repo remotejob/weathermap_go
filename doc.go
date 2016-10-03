@@ -1,11 +1,11 @@
-// Copyright 2009 The Go Authors. All rights reserved.
+// Copyright 2016 The Mazurov. All rights reserved.
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
 /*
-	Package weathermap_go implements formatted I/O with functions analogous
-	to C's printf and scanf.  The format 'verbs' are derived from C's but
-	are simpler.
+	Package weathermap_go simple web site
+
+    [demo](http://104.155.23.78:8080/)
 
 
 	Printing
