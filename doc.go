@@ -16,15 +16,15 @@
 
 	General:
 
-	* small Docker container image
+	small Docker container image
 	can be demployed on
-		Amazon EC2 Container Service  	
-		Google Container Engine 
+		Amazon EC2 Container Service 	
+		Google Container Engine  
 		Azure Container Service etc..  
 
 	Geo Location:
 
-	* get coordinate by  
+	get coordinate by  
 	free GeoLite2-City DB
 */
 package main
