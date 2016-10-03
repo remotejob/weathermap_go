@@ -10,6 +10,6 @@ spec:
     spec:
       containers:
       - name: weathermap-go
-        image:  gcr.io/jntlserv0/weathermap_go:0.14
+        image:  gcr.io/jntlserv0/weathermap_go:0.15
         ports:
         - containerPort: 8080

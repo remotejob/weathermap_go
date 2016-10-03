@@ -8,10 +8,13 @@ import (
 
 	// "github.com/gorilla/mux"
 
+	geoip2 "github.com/oschwald/geoip2-golang"
 	"github.com/rakyll/statik/fs"
 	"github.com/rs/cors"
 	// "github.com/remotejob/goDevice"
 
+	"github.com/remotejob/weathermap_go/geocity"
+	"github.com/remotejob/weathermap_go/openweathermap"
 	_ "github.com/remotejob/weathermap_go/statik"
 )
 
@@ -20,14 +23,14 @@ import (
 // 	return http.TimeoutHandler(h, 1*time.Second, "timed out")
 // }
 //GetWeather return weather
-func GetWeather(w http.ResponseWriter, r *http.Request) {
+// func GetWeather(w http.ResponseWriter, r *http.Request) {
 
-	log.Println("GetWeather")
-	w.WriteHeader(http.StatusOK)
-	w.Header().Set("Content-Type", "application/json")
-	w.Write([]byte(`{"result": "lslslslssl"}`))
+// 	log.Println("GetWeather")
+// 	w.WriteHeader(http.StatusOK)
+// 	w.Header().Set("Content-Type", "application/json")
+// 	w.Write([]byte(`{"result": "lslslslssl"}`))
 
-}
+// }
 
 //Middleware to define mobile
 // func Middleware(h http.Handler) http.Handler {
@@ -59,7 +62,8 @@ func main() {
 		log.Fatalf(err.Error())
 	}
 	c := cors.New(cors.Options{
-	// AllowedOrigins: []string{"*"},
+		AllowedOrigins: []string{"*"},
+		AllowedHeaders: []string{"*"},
 	})
 	// hd := http.HandleFunc("/api/weather", GetWeather)
 
@@ -71,8 +75,16 @@ func main() {
 		if path == "/api/weather" {
 			ip := r.Header.Get("ip")
 			log.Println("ip", ip)
+			db, err := geoip2.Open("geolite/GeoLite2-City.mmdb")
+			if err != nil {
+				log.Fatal(err)
+			}
+			defer db.Close()
+			latitude, longitude := geocity.ByIP(db, ip)
+			log.Println(latitude, longitude)
+			res := openweathermap.GetWeather(latitude, longitude)
 			w.Header().Set("Content-Type", "application/json")
-			w.Write([]byte("{\"hello\": \"world\"}"))
+			w.Write(res)
 		} else {
 			http.FileServer(statikFS).ServeHTTP(w, r)
 		}
@@ -90,5 +102,5 @@ func main() {
 	// http.Handle("/", restiful.Handle(MiddleOne, http.FileServer(statikFS)))
 	// router.Handler("GET", "/", http.FileServer(statikFS))
 	log.Println("Listening at port 8000!!")
-	log.Fatal(http.ListenAndServe(":8000", c.Handler(hd)))
+	log.Fatal(http.ListenAndServe(":8080", c.Handler(hd)))
 }
