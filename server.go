@@ -6,31 +6,15 @@ import (
 	"log"
 	"net/http"
 
-	// "github.com/gorilla/mux"
-
 	geoip2 "github.com/oschwald/geoip2-golang"
 	"github.com/rakyll/statik/fs"
 	"github.com/rs/cors"
-	// "github.com/remotejob/goDevice"
 
 	"github.com/remotejob/weathermap_go/geocity"
 	"github.com/remotejob/weathermap_go/openweathermap"
 	_ "github.com/remotejob/weathermap_go/statik"
 )
 
-// func timeoutHandler(h http.Handler) http.Handler {
-
-// 	return http.TimeoutHandler(h, 1*time.Second, "timed out")
-// }
-//GetWeather return weather
-// func GetWeather(w http.ResponseWriter, r *http.Request) {
-
-// 	log.Println("GetWeather")
-// 	w.WriteHeader(http.StatusOK)
-// 	w.Header().Set("Content-Type", "application/json")
-// 	w.Write([]byte(`{"result": "lslslslssl"}`))
-
-// }
 
 //Middleware to define mobile
 // func Middleware(h http.Handler) http.Handler {

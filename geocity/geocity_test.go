@@ -7,6 +7,7 @@ import (
 	"github.com/oschwald/geoip2-golang"
 )
 
+//TestByIp Test get location by IP
 func TestByIp(t *testing.T) {
 	db, err := geoip2.Open("../geolite/GeoLite2-City.mmdb")
 	if err != nil {

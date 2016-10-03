@@ -12,7 +12,7 @@ import (
 func ByIP(db *geoip2.Reader, ipstr string) (latitude float64, longitude float64) {
 
 	ip := net.ParseIP(strings.TrimSpace(ipstr))
-	log.Println("ByIP", ip)
+
 	record, err := db.City(ip)
 	if err != nil {
 		log.Fatal(err)

@@ -1,3 +1,4 @@
+//Package openweathermap openweathermap.org API
 package openweathermap
 
 import (
@@ -29,6 +30,7 @@ func GetWeather(lat float64, lon float64) []byte {
 	resp, err := http.Get(u.String())
 	if err != nil {
 		// handle error
+		log.Panicln(err.Error())
 	}
 	defer resp.Body.Close()
 	body, err := ioutil.ReadAll(resp.Body)
