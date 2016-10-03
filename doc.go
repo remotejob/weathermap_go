@@ -10,7 +10,7 @@
 	Angular2 code https://github.com/remotejob/weathermap_ang2_webpack.
 
 
-	Use	
+	Use
 
 	The points --> smallest Docker image, test web performatce (Angular 2):
 
@@ -18,12 +18,12 @@
 
 	small Docker container image
 	can be demployed on
-		Amazon EC2 Container Service 	
-		Google Container Engine  
-		Azure Container Service etc..  
+		Amazon EC2 Container Service
+		Google Container Engine
+		Azure Container Service etc..
 
 	Geo Location:
-		get coordinate by  
+		get coordinate by
 		free GeoLite2-City DB
 
 	Weather data:
@@ -33,7 +33,7 @@
 		code splited and organized by Webpack
 
 	Probably mostly intresting part:
-		all web static web file incorporate is single file ./server
+		all static web files incorporate inside single file ./server
 		how it possible --> https://github.com/rakyll/statik/
 
 	Size:

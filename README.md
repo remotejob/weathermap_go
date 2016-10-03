@@ -34,7 +34,7 @@ Site created by Angular 2 framework:
 
 Probably mostly intresting part:
 
-    all web static web file incorporate is single file ./server
+    all static web files incorporate inside single file ./server
     how it possible --> https://github.com/rakyll/statik/
 
 Size:
