@@ -3,9 +3,9 @@
 // license that can be found in the LICENSE file.
 
 /*
-	Package fmt implements formatted I/O with functions analogous
+	Package weathermap_go simple web site
 	Live DEMO http://104.155.23.78:8080
-	are simpler.
+    Angular2 code https://github.com/remotejob/weathermap_ang2_webpack
 
 
 	Printing
