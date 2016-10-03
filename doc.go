@@ -13,8 +13,8 @@
 	The points:
 
 	General:
-        small Docker container image
-        can be demployed on
+        %small Docker container image
+        %can be demployed on
 	Boolean:
 		%t	the word true or false
 	Integer:
