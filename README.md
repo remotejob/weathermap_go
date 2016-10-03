@@ -21,4 +21,10 @@ small Docker container image can be demployed on
 
 Geo Location:
 
-get coordinate by free GeoLite2-City DB
+get coordinate by
+
+    free GeoLite2-City DB
+
+Weather data:
+
+    by simple https://openweathermap.org/  API service

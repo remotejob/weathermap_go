@@ -25,6 +25,9 @@
 	Geo Location:
 
 	get coordinate by  
-	free GeoLite2-City DB
+		free GeoLite2-City DB
+
+	Weather data:
+		by simple https://openweathermap.org/  API service
 */
 package main
