@@ -13,7 +13,7 @@ The points:
 
 General:
 
-small Docker container image can be demployed on
+* small Docker container image can be demployed on
 
     Amazon EC2 Container Service
     Google Container Engine
@@ -21,6 +21,4 @@ small Docker container image can be demployed on
 
 Geo Location:
 
-coordinate by
-
-    free GeoLite2-City DB
+* get coordinate by free GeoLite2-City DB
