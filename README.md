@@ -12,5 +12,7 @@
     	The points:
 
     	General:
-            *small Docker container image
-            *can be demployed on:
+            small Docker container image
+    		%#v a Go-syntax representation of the value
+    		%T	a Go-syntax representation of the type of the value
+    		%%	a literal percent sign; consumes no value
